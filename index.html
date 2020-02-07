@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <script src="https://kit.fontawesome.com/5a5cbf8446.js" crossorigin="anonymous"></script>
+   
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -19,7 +19,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <script src="./assets/script/script.js"></script>
+    
     <link rel="stylesheet" href="./assets/style/style.css" />
     <title>Work Day Scheduler</title>
   </head>
@@ -31,22 +31,29 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-2"  >
           <p>9:00 am</p>
         </div>
         <div class="col-8 " id="hour9">
-          <textarea name="hour9" id="hour9" cols="60" > stuff to do</textarea>
+          <textarea name="hour9" id="texthour9" cols="60" > stuff to do</textarea>
         </div>
         <div class="col-2 ">
           <button id="saveBtn9" class="saveBtn"><i class="far fa-save"></i></button>
         </div>
+      </div> -->
+      <div class="row" id="hour9">
+        <div class="col-2 hour"></div>
+        <textarea class="col-8" name="" id="textArea9" cols="60"  ></textarea>
+        <button class="col-2 saveBtn" value="9"></button>
       </div>
-      
       <!-- Timeblocks go here -->
     </div>
 
+
+    <script src="https://kit.fontawesome.com/5a5cbf8446.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/script/script.js"></script>
   </body>
 </html>
