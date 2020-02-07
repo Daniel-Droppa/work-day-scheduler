@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/5a5cbf8446.js" crossorigin="anonymous"></script>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -18,6 +19,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+    <script src="./assets/script/script.js"></script>
     <link rel="stylesheet" href="./assets/style/style.css" />
     <title>Work Day Scheduler</title>
   </head>
@@ -29,6 +31,18 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
+      <div class="row">
+        <div class="col-2"  >
+          <p>9:00 am</p>
+        </div>
+        <div class="col-8 " id="hour9">
+          <textarea name="hour9" id="hour9" cols="60" > stuff to do</textarea>
+        </div>
+        <div class="col-2 ">
+          <button id="saveBtn9" class="saveBtn"><i class="far fa-save"></i></button>
+        </div>
+      </div>
+      
       <!-- Timeblocks go here -->
     </div>
 
