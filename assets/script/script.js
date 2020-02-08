@@ -17,8 +17,3 @@ for (var t = 9; t < currentHour; t++) {
     $("#textArea" + t).removeClass();
     $("#textArea" + t).addClass("col-8 past");
 }
-
-
-console.log($("#textArea" + currentHour))
-
-console.log(currentHour);
