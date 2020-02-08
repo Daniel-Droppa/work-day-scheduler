@@ -11,6 +11,7 @@ textarea{
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
+  font-size: larger;
   
 }
 
@@ -43,8 +44,8 @@ textarea{
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
-  text-align: right;
-  font-size: large;
+  text-align: center ;
+  padding-top: 25px;
   /* padding-top: 20px; */
 }
 
