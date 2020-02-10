@@ -6,4 +6,4 @@ User is able to schedule things hourly and save it to local storage so that the 
 [link to github page](https://daniel-droppa.github.io/work-day-scheduler/)
 
 
-![screenshot of work day scheduler](./assets\images\Screenshot (16).png)
+![screenshot of work day scheduler](./assets/images/Screenshot (16).png)
